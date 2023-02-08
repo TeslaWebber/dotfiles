@@ -12,6 +12,15 @@ $cmd_duration $jobs $time\
 $line_break\
 $character"""
 
+[username]
+show_always = false
+format = '[$user]($style)'
+
+[hostname]
+ssh_only = false
+format = '[$user]($style)@[$hostname](bold red) '
+disabled = true
+
 [nodejs]
 format = "[$symbol($version )]($style)"
 
